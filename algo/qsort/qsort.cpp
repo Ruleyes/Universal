@@ -1,4 +1,4 @@
-nclude<iostream>  
+#include<iostream>  
 using namespace std;  
 void quickSort(int a[],int,int);  
 int main()  
