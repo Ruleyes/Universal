@@ -67,7 +67,7 @@ int CalEdgNum( Graph g )        //获取图的边数
     int count = 0;  
     int VertexNum = CalVerNum( p );  
     for( int i=0; i<VertexNum; i++ )  
-        for( int j=i; j<VertexNum; j++ )     //邻接矩阵对称，计算上三角元素和即可  
+        for( int j=i; j<VertexNum; j++ )     // 邻接矩阵对称，计算上三角元素和即可  
             if( 0 != p.edg[i][j] )  
                 count++;  
     return count;  
