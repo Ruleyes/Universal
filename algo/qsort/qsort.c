@@ -21,7 +21,7 @@ void display(int array[], int maxlen)
   
     for(i = 0; i < maxlen; i++)  
     {  
-        printf("%-3d", array[i]);  
+        printf("%-7d", array[i]);//"%-5D",5表示字符宽度，-表示左对齐，nice  
     }  
     printf("\n");  
   
@@ -96,7 +96,7 @@ void quicksort(int array[], int maxlen, int begin, int end)
 int main()  
 {  
     int n;  
-    int array[BUF_SIZE] = {12,85,25,16,34,23,49,95,17,61};  
+    int array[BUF_SIZE] = {12,85,25,12226,34,233,49,5,177757,661};  
     int maxlen = BUF_SIZE;  
       
     printf("排序前的数组\n");  
