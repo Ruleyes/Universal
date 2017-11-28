@@ -50,7 +50,7 @@ set number "出现行号
 colorscheme molokai "vim的颜色主题
 
 set termencoding=utf：wq-8 "这三行是为了告别打开文件乱码，nice！
-set fileencodings=utf-8,gbk,latin1
+set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
 set encoding=utf-8
 
 " Source a global configuration file if available
