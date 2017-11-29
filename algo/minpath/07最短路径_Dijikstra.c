@@ -1,7 +1,8 @@
 #include "stdio.h"    
 #include "stdlib.h"   
 #include "math.h"  
-#include "time.h"
+//#include "time.h"
+
 
 #define OK 1
 #define ERROR 0 
@@ -11,8 +12,6 @@
 #define MAXEDGE 20
 #define MAXVEX 20
 #define INFINITY 65535
-
-typedef int Status;	/* Status是函数的类型,其值是函数结果状态代码，如OK等 */ 
 
 
 typedef struct
