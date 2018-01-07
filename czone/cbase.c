@@ -13,6 +13,21 @@ int main()
 	unsigned int b = 4294967296;
 	printf("2.The value of a=4294967295 is %u.\n",a);//%d若转换符号为d，则结果为-1.unsigned int 应为%u.转换
 	printf("2.The value of b=4294967296 is %u.\n",b);//无符号整形上限为4294967296，+1则变为0
+	short c1=-32767;
+	unsigned short c2 =c1;
+	printf("2.The value of c1 is %d.\n",c1);//%d若转换符号为d，
 
-   return 0;
+	printf("2.The value of c2 is %u.\n",c2);//%d若转换符号为d，
+	/*不同数据类型之间相互转换*/
+	short a10=-2;
+	unsigned short b10=a10;
+	int b20=b10;
+	int c10=a10;
+
+	printf(" b10=%x    //short a10=-2 转 unsigned short\n",b10);
+	printf(" b20=%x    //unsigned short 转 int\n",b20);
+	printf(" c10=%x//short a10=-2 转 int\n",c10);
+   
+
+return 0;
 }
