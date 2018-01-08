@@ -23,10 +23,11 @@ int main()
 	unsigned short b10=a10;
 	int b20=b10;
 	int c10=a10;
-
+	unsigned int c20=a10;
 	printf(" b10=%x    //short a10=-2 转 unsigned short\n",b10);
 	printf(" b20=%x    //unsigned short 转 int\n",b20);
 	printf(" c10=%x//short a10=-2 转 int\n",c10);
+	printf(" c10=%x//short a10=-2 转 unsigned int\n",c10);
    
 
 return 0;
