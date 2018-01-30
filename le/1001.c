@@ -8,12 +8,12 @@ int n=0;
     if(n<1||n>1000){
       exit(1);
     }else{
-      count(n);
+      Count(n);
     };
   return 0;
 }
 
-int count(int x){
+int Count(int x){
   int cnt=0;
   while(x!=1){
     if(x%2==0){
