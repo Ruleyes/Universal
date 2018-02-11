@@ -6,3 +6,18 @@
 
 
 #include<stdio.h>
+
+char Char[Max];
+int k=-1;
+for i=0 to n-1;
+  for j=0 to Max{
+    getchar("%c",&Char2[i]);
+  }
+  k++;
+  Len[k]=strlen(Char);
+  for m=0 to Len[k]-1;
+     Str[k].Char[m]=Char2[m];
+   }
+}
+
+if(=' ')
