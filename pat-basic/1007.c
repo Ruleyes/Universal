@@ -17,6 +17,7 @@ int main(){
   do{
     if(ray[t+1]-ray[t]==2){
       Count++;
+      t++;
     }
   }
   while(t<k);
