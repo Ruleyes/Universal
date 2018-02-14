@@ -4,9 +4,10 @@
 int main(){
   int m,n;
   scanf("%d",&n);
+  
   int ray[n];
   int k=0;
-  for(int i=2;i<n;i++){
+  for(int i=2;i<n+1;i++){
     if(judge(i)!=0){
       ray[k]=i;
       k++;
@@ -17,11 +18,12 @@ int main(){
   do{
     if(ray[t+1]-ray[t]==2){
       Count++;
-      t++;
     }
+    t++;
   }
   while(t<k);
   printf("%d\n",Count);
+   
   return 0;
 }
 
